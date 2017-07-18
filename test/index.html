@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Mini Container Query Test</title>
+
+<input placeholder="Enter 5 or more characters" autofocus>
+<textarea placeholder="Enter 5 or more characters"></textarea>
+
+<style id=style></style>
+
+<script src=../cq.js></script>
+
+<script>
+onload=onresize=onclick=oninput=()=>{
+  style.innerHTML=q('input,textarea','this.value.length>=5','','background: lime')
+}
+</script>

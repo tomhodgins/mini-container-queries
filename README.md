@@ -1,2 +1,2 @@
 # mini-container-queries
-A &lt;200 byte container query plugin
+The World's Smallest Container Query Plugin

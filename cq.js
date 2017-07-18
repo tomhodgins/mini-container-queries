@@ -1,0 +1,1 @@
+q=(a,b,c,d)=>{f='',g=0,document.querySelectorAll(a).forEach(e=>{if((new Function('return '+b)).call(e))e.setAttribute(i=btoa(a).replace(/=/g),g),f+=`[${i}="${g++}"] ${c}{${d}}`});return f}
